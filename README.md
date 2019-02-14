@@ -59,10 +59,7 @@ To deploy Kumbh bot using your local machine as server, follow following steps -
 * Download the bot's zuliprc configuration file to your computer.
 	* Go to Settings -> Your bots
 	* In the Active bots panel, click on the little green download icon to download its configuration file zuliprc (the structure of this file is explained here).
-* Make sure sure that your system has following packages installed -
-	* enchant (Please make sure your enchant version is <= 1.6.1-2) 
-	* sshpass (For debian based system install using ```sudo apt-get install sshpass```)
-	* aspell-en (For debian based system install using ```sudo apt-get install aspell-en```)
+
 * Install all required python packages, rum command ```pip3 install -r requirements.txt```
 * Now we are all set, to run bot enter following command ```zulip-run-bot <absolute path to kumbhBot.py file > --config-file <absolute path to downloaded zuliprc file>```
 
@@ -71,20 +68,38 @@ Example Usage - ```zulip-run-bot ~/Projects/KumbhBot/bot/kumbhBot --config-file 
 
 ## Screenshots
 
+<strong> Hello user!! :</strong>
+<p align="center">
+  <img src = "https://github.com/shruti8019/Kumbh-bot/blob/master/KumbhBot/images/Hello.png">
+</p>
 
+<strong> News :</strong>
+<p align="center">
+  <img src = "https://github.com/shruti8019/Kumbh-bot/blob/master/KumbhBot/images/news.png">
+</p>
+
+<strong> Weather :</strong>
+<p align="center">
+  <img src = "https://github.com/shruti8019/Kumbh-bot/blob/master/KumbhBot/images/weather.png">
+</p>
+
+<strong> Play Bhajan:</strong>
+<p align="center">
+  <img src = "https://github.com/shruti8019/Kumbh-bot/blob/master/KumbhBot/images/bhajan.png">
+</p>
 
 
 
 ## Feedback
 
-Feel free to send us feedback on [Email](mailto:support@jarvis-bot.tech) or [file an issue](https://github.com/mkfeuhrer/JarvisBot/issues).
+Feel free to send us feedback on [Email](mailto:support@kumbh-bot.tech) or [file an issue](https://github.com/shruti8019/Kumbh-bot/issues).
 
 ## Contributors
 
 <ul>
   <li> <a href="https://github.com/shruti8019">Shruti Jagwani</a></li>
-  <li> <a href="https://github.com/imharshita07">Harshita Rastogi</a></li>
   <li> <a href="https://github.com/ria567">Ria Jain</a></li>
+  <li> <a href="https://github.com/imharshita07">Harshita Rastogi</a></li>
   <li> <a href="https://github.com/araishaftab5">Araish Aftab</a></li>
 </ul>
 
@@ -95,10 +110,6 @@ Feel free to send us feedback on [Email](mailto:support@jarvis-bot.tech) or [fil
   <li>All Suggestions are welcome.</li>
   <li>Fork repository and Contribute.</li>
 </ul>
-
-## Announcements
-
-We have updated Jarvis Bot and it now uses latest python-zulip-api. Also now all the features of Jarvis bot can be used in both stream as well as private messages.
 
 ## Acknowledgment
 
